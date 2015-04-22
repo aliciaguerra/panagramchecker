@@ -1,8 +1,8 @@
 using System;
  
-namespace PangrammChecker
+namespace PangramChecker
 {
-    public class PangrammChecker
+    public class PangramChecker
     {
         public static bool IsPangram(string str)
         {
@@ -30,9 +30,9 @@ namespace PangrammChecker
             string str1 = "The quick brown fox jumps over the lazy dog.";
             string str2 = "The qu1ck brown fox jumps over the lazy d0g.";
             Console.WriteLine("{0} is {1}a pangram", str1,
-                PangrammChecker.IsPangram(str1)?"":"not ");
+                PangramChecker.IsPangram(str1)?"":"not ");
             Console.WriteLine("{0} is {1}a pangram", str2,
-                PangrammChecker.IsPangram(str2)?"":"not ");
+                PangramChecker.IsPangram(str2)?"":"not ");
             Console.WriteLine("Press Return to exit");
             Console.ReadLine();
         }
